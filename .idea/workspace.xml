@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="86856296-c991-435e-901d-5f898d4ac1cd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/TalkingBox.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tts_engine.py" afterDir="false" />
-    </list>
+    <list default="true" id="86856296-c991-435e-901d-5f898d4ac1cd" name="Changes" comment="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +29,11 @@
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="TalkingBox" />
@@ -73,6 +74,30 @@
       <option name="presentableId" value="Default" />
       <updated>1738288316636</updated>
     </task>
+    <task id="LOCAL-00001" summary="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)">
+      <option name="closed" value="true" />
+      <created>1738288974038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738288974038</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)" />
+    <option name="LAST_COMMIT_MESSAGE" value="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)" />
   </component>
 </project>
