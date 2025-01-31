@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86856296-c991-435e-901d-5f898d4ac1cd" name="Changes" comment="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)" />
+    <list default="true" id="86856296-c991-435e-901d-5f898d4ac1cd" name="Changes" comment="Set up dir">
+      <change afterPath="$PROJECT_DIR$/tests/test_tts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +16,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2sNFqO0hoS5ulUouQFh3GQV8CMj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -24,6 +27,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python tests.Python tests for test_tts.TestTTSEngine.executor": "Run",
+    "Python tests.Python tests in test_tts.py.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master"
@@ -34,7 +39,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.pyt2s">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="TalkingBox" />
       <option name="ENV_FILES" value="" />
@@ -57,6 +62,65 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pyt2s" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="TalkingBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/pyt2s.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_tts.TestTTSEngine" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TalkingBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_tts.TestTTSEngine&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests in test_tts.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="TalkingBox" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/test_tts.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pyt2s" />
+        <item itemvalue="Python tests.Python tests in test_tts.py" />
+        <item itemvalue="Python tests.Python tests for test_tts.TestTTSEngine" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -82,7 +146,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738288974038</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Set up dir">
+      <option name="closed" value="true" />
+      <created>1738289265934</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738289265934</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +170,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)" />
-    <option name="LAST_COMMIT_MESSAGE" value="First.&#10;&#10;TalkingBox/&#10;│── .venv/               # Virtual environment (already set up)&#10;│── src/                 # Source code directory&#10;│   │── tts_engine.py    # TTS module&#10;│   │── main.py          # Entry point script&#10;│   └── utils.py         # Utility functions (optional)&#10;│── tests/               # Unit and integration tests&#10;│   ├── test_tts.py      # Tests for tts_engine.py&#10;│── data/                # Store text input files, if needed&#10;│── config/              # Configuration files (optional)&#10;│── docs/                # Documentation&#10;│── .gitignore           # Ignore virtual environment, logs, etc.&#10;│── pyproject.toml       # Project dependencies and settings&#10;│── requirements.txt     # List of dependencies&#10;│── README.md            # Project overview and usage instructions&#10;│── setup.py             # Installation script (optional)" />
+    <MESSAGE value="Set up dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Set up dir" />
   </component>
 </project>
