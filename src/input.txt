@@ -1,1 +1,26 @@
-This is a test.
+faculty member, perhaps we can model this with two separate optional
+relationships from Moderator to Student and Faculty. So, each Moderator
+must be linked to either a Student or a Faculty but not both. That way,
+when creating a Club-Moderator relationship, it's mandatory that the
+Moderator exists and is linked to either a student or faculty.
+
+But I'm getting confused here. Maybe an alternative approach: Instead of
+having a Moderator entity, just have attributes in Club indicating whether
+the moderator is a student or faculty. But that might not capture all
+necessary details because each Moderator can moderate multiple Clubs? Or
+wait, does each Club have one Moderator, but a Moderator can moderate only
+one Club?
+
+Wait, actually, the problem states "Each club has one moderator," but it
+doesn't specify if a moderator can moderate multiple clubs. So perhaps
+moderators can moderate multiple clubs or just one. The problem isn't
+clear on that. But in any case, for now, let's assume that a Moderator
+(whether student or faculty) can moderate multiple Clubs.
+
+Therefore, the Club-Moderator relationship is many-to-many. Wait, no: Each
+Club has exactly one Moderator. So it's one-to-one from Club to Moderator?
+Or maybe one-to-many if a Moderator can have multiple Clubs?
+
+Wait, no, each Club has one Moderator, but a Moderator can be associated
+with multiple Clubs. So it's a one-to-many relationship from Moderator to
+Clubs.
