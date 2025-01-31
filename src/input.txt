@@ -1,0 +1,3 @@
+Okay, so I need to design a database for college students and related
+entities like academic advisors, clubs, moderators, and activities. Let me
+start by breaking down the requirements step by step.
