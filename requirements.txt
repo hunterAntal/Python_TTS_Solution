@@ -1,2 +1,4 @@
 pydub~=0.25.1
 pyt2s~=0.0.4
+torch~=2.6.0
+styletts2~=0.1.6

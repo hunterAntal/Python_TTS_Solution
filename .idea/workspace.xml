@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86856296-c991-435e-901d-5f898d4ac1cd" name="Changes" comment="Needing to install torch" />
+    <list default="true" id="86856296-c991-435e-901d-5f898d4ac1cd" name="Changes" comment="Added README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.wav" beforeDir="false" afterPath="$PROJECT_DIR$/src/test.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tts_engine.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tts_engine.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +19,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hunterAntal"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hunterAntal/Python_TTS_Solution.git",
+    "accountId": "d37d0cce-baed-47bb-9bd4-98363200f8eb"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -39,7 +57,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.yappers">
+  <component name="RunManager" selected="Python.tts_engine">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="TalkingBox" />
       <option name="ENV_FILES" value="" />
@@ -160,8 +178,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.yappers" />
         <item itemvalue="Python.tts_engine" />
+        <item itemvalue="Python.yappers" />
         <item itemvalue="Python.pyt2s" />
         <item itemvalue="Python tests.Python tests in test_tts.py" />
         <item itemvalue="Python tests.Python tests for test_tts.TestTTSEngine" />
@@ -232,7 +250,23 @@
       <option name="project" value="LOCAL" />
       <updated>1738293081858</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added README.md">
+      <option name="closed" value="true" />
+      <created>1738293277589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738293277589</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added README.md">
+      <option name="closed" value="true" />
+      <created>1738293334543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738293334543</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,6 +287,7 @@
     <MESSAGE value="TTS Works" />
     <MESSAGE value="Working Version 1. Using Yapper" />
     <MESSAGE value="Needing to install torch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Needing to install torch" />
+    <MESSAGE value="Added README.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added README.md" />
   </component>
 </project>

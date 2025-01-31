@@ -1,5 +1,4 @@
-import torch
-from styletts2 import StyleTTS2
+from yapper import Yapper, PiperSpeaker, PiperVoiceUK, PiperQuality
 
 
 def read_text_file(file_path):
@@ -15,30 +14,28 @@ def read_text_file(file_path):
         return None
 
 
+alan = PiperSpeaker(
+    voice=PiperVoiceUK.ALAN
+)
+
+
 def text_to_speech(input_file, output_file):
-    """Converts text to speech using StyleTTS 2 and saves as WAV."""
+    """Converts text to speech using Yapper-TTS and saves as WAV."""
     text = read_text_file(input_file)
     if not text:
         print("No text to convert.")
         return
 
     try:
-        # Load the model
-        model = StyleTTS2.load_model()
-
-        # Generate speech
-        speech_waveform = model.text_to_speech(text)
-
-        # Save output
-        torch.save(speech_waveform, output_file)
+        alan.text_to_wave(text, output_file)
         print(f"Speech saved to {output_file}")
     except Exception as e:
         print(f"Error during speech synthesis: {e}")
 
 
 def main():
-    input_file = "input.txt"  # Replace with your text file path
-    output_file = "output.wav"  # Replace with desired output file path
+    input_file = "/home/hunter/PycharmProjects/PythonProject/src/input.txt"  # Replace with your text file path
+    output_file = "/home/hunter/PycharmProjects/PythonProject/src/test.wav"  # Replace with desired output file path
     text_to_speech(input_file, output_file)
 
 
